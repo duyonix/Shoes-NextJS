@@ -1,0 +1,39 @@
+{
+  "name": "demo-page-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@jeremyling/react-material-ui-form-builder": "0.9.7",
+    "@jeremyling/react-material-ui-rich-text-editor": "0.2.0",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/lab": "^5.0.0-alpha.72",
+    "@mui/material": "^5.4.4",
+    "cookie": "^0.4.2",
+    "cookies": "^0.8.0",
+    "date-fns": "2.25.0",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "next": "12.1.0",
+    "nextjs-progressbar": "^0.0.14",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-beautiful-dnd": "13.1.0",
+    "react-color": "2.19.3",
+    "react-dom": "17.0.2",
+    "react-player": "2.9.0",
+    "react-scripts": "4.0.0",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

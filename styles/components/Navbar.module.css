@@ -1,0 +1,72 @@
+.navbar {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  padding: 10px 20px;
+  z-index: 100;
+}
+.navbar img {
+  height: 70px;
+  width: 100%;
+}
+.navbar .navPageItem {
+  padding: 0;
+  margin: 0 8px;
+  display: block;
+}
+.navbar .navLink {
+  padding: 5px 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.navbar .navLink:hover {
+  color: #00e660;
+  transition: all 0.5s;
+}
+.navbar .navLinkActive {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00e660;
+  border-bottom: 3px solid #00e660;
+}
+.navbar .notification {
+  margin-right: 10px;
+  color: black;
+  border-radius: 50%;
+  background-color: #ebebeb;
+}
+.navbar .notification:hover {
+  background-color: #ebebeb;
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar .navPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: no-wrap;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .navbar {
+    padding: 0.5rem 5px !important;
+  }
+  .navbar .css-2uchni {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .css-2uchni .notification {
+    margin-right: 4px;
+  }
+  .navbar .css-19r6kue-MuiContainer-root {
+    padding: 0 5px;
+  }
+}
+.navPageLinkMobile:hover {
+  color: #00e660;
+  transition: all 0.5s;
+}

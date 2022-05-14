@@ -1,0 +1,19 @@
+.title {
+  font-size: 32px;
+  color: #00b46e;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center !important;
+}
+
+.info {
+  font-size: 18px;
+}
+
+.image {
+  width: 100%;
+  /* height: auto; */
+  min-height: 300px;
+  position: relative;
+}

@@ -1,0 +1,36 @@
+.card {
+  max-width: 345px;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card:hover .name {
+  color: #1976d2;
+}
+.ellipsis,
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.name {
+  text-align: center;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+}
+.price {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: red;
+  text-align: center;
+}
+
+.description {
+  /* margin-top: 5px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
